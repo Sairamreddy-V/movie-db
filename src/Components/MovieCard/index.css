@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+.card {
+  height: 600px;
+  width: 400px;
+  border-radius: 7px;
+}
+.card-li-container {
+  list-style-type: none;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+.card-image {
+  height: 60%;
+  width: 100%;
+}
+.card-text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.card-text-heading {
+  color: #000000;
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.card-rating-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-rating {
+  font-size: 14px;
+  color: grey;
+  font-weight: bold;
+}
+.card-view-button {
+  color: #ffffff;
+  background-color: blue;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}

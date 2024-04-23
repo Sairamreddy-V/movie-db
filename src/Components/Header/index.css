@@ -1,0 +1,35 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px, 15px, 5px, 15px;
+  align-items: center;
+  background-color: bisque;
+}
+.nav-heading {
+  color: #000000;
+  font-size: 18px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.nav-routes-container {
+  display: flex;
+  align-items: center;
+}
+.nav-para {
+  font-size: 14px;
+  color: blueviolet;
+  margin-right: 7px;
+}
+
+.nav-search {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid violet;
+  padding: 4px;
+  border-radius: 7px;
+  width: 320px;
+}
+.link-item {
+  text-decoration: none;
+  margin-right: 12px;
+}
